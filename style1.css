@@ -1,0 +1,186 @@
+body {
+    font-family: 'inter';
+    background-color:#E9E9E9 ;
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+     main, footer {
+        max-width: 1200px;
+        margin: auto;
+        } 
+
+        header {
+            
+            background-color: black;
+            background-size: 100%;
+        }
+
+    header a {
+        text-decoration: none;
+        color: white;
+        }
+    
+        header p {
+            font-family: 'Bebas Neue';
+            font-size: 40px;
+            margin-left: 30px;
+            margin-top: 0;
+            margin-bottom: 0;
+            }
+    
+        header ul {
+            font-family: 'inter';
+            font-size: 18px;
+            }
+    
+            header nav ul {
+                list-style-type: none;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-right:30px;
+                margin-left:30px;
+                padding: 0;
+                gap: 20px;
+                
+                
+                }
+    
+                header {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    
+                }
+
+                main {
+                    margin-top: 60px;
+                }
+
+                header a:hover {
+                    color: black;
+                    text-decoration: underline;
+                }
+                .arrow a{
+                    font-size: 100px;
+                    font-weight: lighter;
+                    list-style-type: none;
+                    text-decoration: none;
+                    color: black;
+                    margin: 0;
+                    padding: 0;
+                }
+                
+                
+                 .hero h1 {
+                        font-family: 'inter';
+                        font-weight: normal;
+                        font-size: 80px;
+                        color: black;
+                        text-decoration: none;
+                        list-style-type: none;
+                        margin: 0;
+                        padding: 0;
+                        }
+                        .hero p {
+                            font-family: 'inter';
+                            font-weight: normal;
+                            font-size: 50px;
+                            color: black;
+                        
+                            }
+
+                            .item{
+                            display: flex;
+                            justify-content: space-between;
+                            margin-bottom: 20px;
+                                
+                               }
+                            
+
+                           
+                            .backpack h2, .backpack p {
+                                margin: 0;
+                                padding: 0;
+                                
+                            }
+                            .backpack h2 {
+                                font-size: 40px;
+                                font-weight: normal;
+                                margin-bottom: 20px;
+                            }
+                            .backpack p {
+                                font-size: 20px;
+                                font-weight: normal;
+                                
+                            }
+
+                            .text {
+                            text-align: left;    
+                            }
+
+                            .backpack img {
+                                height: 400px;
+                                width: 500px;
+                                object-fit: cover;
+                            
+                            }
+                            
+                           
+                            .backpack a {
+                           text-decoration: none;
+                           color: black;
+                           font-size: 40px;
+                           
+                           }
+                           
+                           
+                           
+  
+
+
+                          
+            
+                        
+                
+                footer {
+                    padding-top: 40px;
+                    }
+                    footer nav.social {
+                        display: flex;
+                        justify-content: space-between;
+                    }
+
+                    footer nav ul {
+                        padding: 0;
+                    }
+
+                    footer a {
+                        text-decoration: none;
+                        color: black;
+                        margin-right: 0;
+                        }
+
+                    footer nav ul {
+                        font-family: 'inter';
+                        color: black;
+                        font-size: 18px;
+                        text-decoration: none;
+                        list-style-type: none;
+                        display: flex;
+                        margin:0;
+                        padding: 0;
+                        gap: 20px;
+                             }
+
+                    footer p {
+                        font-family: 'Bebas Neue';
+                        font-size: 100px;
+                        margin: 0;
+
+                    }
+

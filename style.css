@@ -1,0 +1,247 @@
+body {
+font-family: 'inter';
+background-color:#E9E9E9 ;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+header, main, footer {
+    max-width: 1200px;
+    margin: auto;
+    } 
+
+header a {
+    text-decoration: none;
+    color: black;
+    
+    }
+
+    header p {
+        font-family: 'Bebas Neue';
+        font-size: 200px;
+        margin: 0px;
+        }
+
+    header ul {
+        font-family: 'inter';
+        color: black;
+        font-size: 20px;
+        }
+
+        header nav ul {
+            text-decoration: none;
+            list-style-type: none;
+            }
+
+            header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+               
+            }
+
+            header a:hover {
+                color: black;
+                text-decoration: underline;
+            }
+
+            main p {
+                background-color: #EF7215;
+                padding-top: 20px;
+                padding-left: 20px;
+                padding-bottom: 100px;
+                font-family: 'inter';
+                font-size: 65px;
+                }
+
+                section {
+                    margin-top: 100px;
+                    margin-bottom: 20px;
+    
+                   }
+                section.title a {
+                font-family: 'inter';
+                font-weight: normal;
+                font-size: 120px;
+                color: black;
+                text-decoration: none;
+                list-style-type: none;
+                }
+
+            section.title a:hover {
+                color: black;
+                text-decoration: underline;
+            }
+
+            
+
+            .grid {
+                display: grid;
+                gap: 20px;
+            }
+            .item1 {
+                grid-column: 1;
+                grid-row: 1 / span 2;
+              }
+              
+
+              .item2 {
+                grid-column: 2;
+                
+              }
+              .item3 {
+                grid-column: 2;
+                
+              }
+
+              
+
+            section.title2 a {
+                font-family: 'inter';
+                font-weight: normal;
+                font-size: 120px;
+                color: black;
+                text-decoration: none;
+                list-style-type: none;
+                }
+
+                section.title2 a:hover {
+                    color: black;
+                    text-decoration: underline;
+                }
+
+            div.card img {
+                object-fit: cover;
+                width: 100%;
+                height: 300px;
+                
+            }
+            div.text a {
+                font-family: 'inter';
+                font-weight: normal;
+                font-size: 40px;
+                color: black;
+                text-decoration: none;
+                list-style-type: none;
+            }
+            div.text a:hover {
+                color: black;
+                text-decoration: underline;
+            }
+
+            
+            div.card  {
+                display: grid;
+                grid-template-columns: repeat(4, minmax(200px, 1fr));
+                gap: 20px 20px;
+            }
+         
+           section.title3 {
+                background-color: #618AA4;
+                text-align: center;
+                
+                }
+
+                section.title3  a{
+                font-family: 'inter';
+                font-weight: normal;
+                font-size: 250px;
+                color: black;
+                text-decoration: none;
+                list-style-type: none;
+                }
+
+                section.title3 a:hover {
+                    color: black;
+                    text-decoration: underline;
+                }
+
+                section.title4 a {
+                    font-family: 'inter';
+                    font-weight: normal;
+                    font-size: 120px;
+                    color: black;
+                    text-decoration: none;
+                    list-style-type: none;
+                    }
+    
+                    section.title4 a:hover {
+                        color: black;
+                        text-decoration: underline;
+                    }
+
+                    div.grid1 img {
+                        object-fit: cover;
+                        width: 100%;
+                        
+                    }
+                    div.grid1  {
+                        display: grid;
+                        grid-template-columns: repeat(4, minmax(100px, 1fr));
+                        gap: 40px 40px;
+                    }
+
+                    section.title5 {
+                        background-color: #CE64A4;
+                        text-align: center;
+                        
+                        }
+        
+                        section.title5  a{
+                        font-family: 'inter';
+                        font-weight: normal;
+                        font-size: 250px;
+                        color: black;
+                        text-decoration: none;
+                        list-style-type: none;
+        
+                        }
+                        section.title5 a:hover {
+                            color: black;
+                            text-decoration: underline;
+                        }
+
+                        footer {
+                        padding-top: 40px;
+                        }
+                        footer nav.social {
+                            display: flex;
+                            justify-content: space-between;
+                        }
+
+                        footer nav ul {
+                            padding: 0;
+                        }
+
+                        footer a {
+                            text-decoration: none;
+                            color: black;
+                            margin-right: 0;
+                            }
+
+                        footer nav ul {
+                            font-family: 'inter';
+                            color: black;
+                            font-size: 18px;
+                            text-decoration: none;
+                            list-style-type: none;
+                            display: flex;
+                            margin:0;
+                            padding: 0;
+                            gap: 20px;
+                                 }
+
+                        footer p {
+                            font-family: 'Bebas Neue';
+                            font-size: 100px;
+                            margin: 0;
+
+                        }
+
+
+
+                                 
